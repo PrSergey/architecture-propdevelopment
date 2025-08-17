@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mkdir -p rbac/users
+
+for user in user_viewer user_editor; do
+  openssl genrsa -out rbac/users/${user}.key 2048
+  openssl req -new -key rbac/users/${user}.key -out rbac/users/${user}.csr -subj "/CN=${user}/O=${user}"
+  openssl x509 -req -in rbac/users/${user}.csr -CA "$(minikube config view | grep client-certificate | cut -d ' ' -f2)" \
+    -CAkey "$(minikube config view | grep client-key | cut -d ' ' -f2)" -CAcreateserial \
+    -out rbac/users/${user}.crt -days 365
+done
