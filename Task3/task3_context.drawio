@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram id="c4-context-smart-home" name="C4 Context Diagram">
+    <mxGraphModel dx="1299" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Собственник" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fillColor=#083F75;strokeColor=#06315C;fontColor=#0F0F0F;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="150" y="334" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Гость" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fillColor=#083F75;strokeColor=#06315C;fontColor=#000000;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="150" y="140" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="PropDevelopment&#xa;Экосистема" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;strokeColor=#0D5091;fontColor=#FFFFFF;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="450" y="350" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Партнёрская платформа&#xa;«Умный дом»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;strokeColor=#736782;fontColor=#FFFFFF;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="830" y="350" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Управляющая&#xa;компания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;strokeColor=#736782;fontColor=#FFFFFF;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="830" y="550" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Управляет доступом в дом&#xa;и на территорию через&#xa;мобильное приложение" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="2" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Использует для&#xa;входа в дом" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="3" target="9NqSxmQcAQE9C4UhQOIo-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="160" />
+              <mxPoint x="320" y="200" />
+            </Array>
+            <mxPoint x="630" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Проезжает через&#xa;шлагбаум" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="9NqSxmQcAQE9C4UhQOIo-19" target="9NqSxmQcAQE9C4UhQOIo-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="705" as="sourcePoint" />
+            <mxPoint x="630" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Интегрируется для&#xa;предоставления услуг&#xa;умного дома" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Управляет&#xa;системой" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="5" target="9NqSxmQcAQE9C4UhQOIo-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="250.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Управляет&#xa;системой" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="5" target="9NqSxmQcAQE9C4UhQOIo-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Предоставляет&#xa;сервис" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="6" target="9NqSxmQcAQE9C4UhQOIo-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Предоставляет&#xa;сервис" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="6" target="9NqSxmQcAQE9C4UhQOIo-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="410" />
+              <mxPoint x="1140" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Согласует правила&#xa;доступа на территорию" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="C4 Диаграмма контекста: Внедрение сервисов «Умный дом» в PropDevelopment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="150" y="40" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9NqSxmQcAQE9C4UhQOIo-19" value="Автомобиль владельца" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;strokeColor=#0D5091;fontColor=#FFFFFF;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="660" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9NqSxmQcAQE9C4UhQOIo-20" value="Интеллектуальный шлагбаум" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;strokeColor=#0D5091;fontColor=#FFFFFF;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="660" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9NqSxmQcAQE9C4UhQOIo-21" value="Интеллектуальный домофон" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;strokeColor=#0D5091;fontColor=#FFFFFF;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="140" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
